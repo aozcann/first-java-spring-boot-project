@@ -42,8 +42,7 @@ public class CustomerService {
         return customers;
     }
 
-    public Customer getCustomerById(long id) throws RecordNotFoundException
-    {
+    public Customer getCustomerById(long id) throws RecordNotFoundException {
         Customer customer = customerRepository.findById(id).orElseThrow(() -> new  RecordNotFoundException("bu customer bulunamadı"));
         return customer;
     }

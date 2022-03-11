@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40263b42-86c2-4672-954b-109015c16c0b" name="Changes" comment="Customer Crud operations implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/CreateLessonRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/UpdateLessonRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/response/DeleteLessonResponse.java" afterDir="false" />
+    <list default="true" id="40263b42-86c2-4672-954b-109015c16c0b" name="Changes" comment="Lesson Crud operations implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/CreateTrainerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/UpdateTrainerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/response/DeleteTrainerResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller/LessonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller/LessonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller/TrainerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller/TrainerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/response/DeleteCustomerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/response/DeleteCustomerResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/LessonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/LessonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/UpdateCustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/UpdateCustomerRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/TrainerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/TrainerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-hibernate-crud-demo/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -83,8 +82,8 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.firstspringbootproject.model.response" />
-      <recent name="com.example.firstspringbootproject.repository" />
       <recent name="com.example.firstspringbootproject.model.request" />
+      <recent name="com.example.firstspringbootproject.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AEO\Desktop\Java-Development\first-java-spring-boot-project\src\main\resources" />
@@ -146,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646942839199</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson Crud operations implemented">
+      <created>1647013963476</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647013963476</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,14 +170,15 @@
     <MESSAGE value="git ignore file added" />
     <MESSAGE value="Initial classes declared" />
     <MESSAGE value="Customer Crud operations implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Customer Crud operations implemented" />
+    <MESSAGE value="Lesson Crud operations implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson Crud operations implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/CustomerService.java</url>
-          <line>57</line>
+          <line>56</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -196,12 +203,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/TrainerService.java</url>
-          <line>45</line>
+          <line>51</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/CustomerService.java</url>
-          <line>46</line>
+          <line>45</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
