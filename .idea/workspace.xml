@@ -4,31 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40263b42-86c2-4672-954b-109015c16c0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/exception/RecordNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/CreateCustomerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/UpdateCustomerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/response/DeleteCustomerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/repository/LessonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/repository/TrainerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+    <list default="true" id="40263b42-86c2-4672-954b-109015c16c0b" name="Changes" comment="Customer Crud operations implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/CreateLessonRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/UpdateLessonRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/response/DeleteLessonResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/FirstSpringBootProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/FirstSpringBootProjectApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller/LessonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller/LessonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller/TrainerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller/TrainerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/Lesson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/Trainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/response/DeleteCustomerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/response/DeleteCustomerResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/repository/CustomerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/LessonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/LessonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/TrainerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/TrainerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/firstspringbootproject/FirstSpringBootProjectApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/firstspringbootproject/FirstSpringBootProjectApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +83,7 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.firstspringbootproject.model.response" />
+      <recent name="com.example.firstspringbootproject.repository" />
       <recent name="com.example.firstspringbootproject.model.request" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -153,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646685438362</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Customer Crud operations implemented">
+      <created>1646942839199</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646942839199</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +163,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git ignore file added" />
     <MESSAGE value="Initial classes declared" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial classes declared" />
+    <MESSAGE value="Customer Crud operations implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer Crud operations implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -192,7 +186,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/LessonService.java</url>
-          <line>29</line>
+          <line>35</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
