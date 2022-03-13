@@ -32,7 +32,7 @@ It can be accessed from http://localhost:8081/h2
 
 You must change url like below picture
 
-![h2_mem_login_menu](https://github.com/aozcann/first-java-spring-boot-project/blob/master/doc/h2_mem_login_menu.png)
+![h2_mem_login_menu](https://github.com/aozcann/first-java-spring-boot-project/blob/master/doc/h2_mem_login_menu.jpg)
 
 
 ## Test with Postman
