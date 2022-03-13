@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40263b42-86c2-4672-954b-109015c16c0b" name="Changes" comment="Lesson Crud operations implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/CreateTrainerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/UpdateTrainerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/response/DeleteTrainerResponse.java" afterDir="false" />
+    <list default="true" id="40263b42-86c2-4672-954b-109015c16c0b" name="Changes" comment="Trainer Crud operations implemented">
+      <change afterPath="$PROJECT_DIR$/doc/CustomerUpdate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/customerCreate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/customerDelete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/getAllCustomer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/getCustomerById.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/h2_mem_login_menu.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller/TrainerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller/TrainerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/UpdateCustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/model/request/UpdateCustomerRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/TrainerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/TrainerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +40,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/resources/data.sql" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/repository/CustomerRepository.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/resources/schema.sql" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller/CustomerController.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/service/CustomerService.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/FirstSpringBootProjectApplication.java" root0="FORCE_HIGHLIGHTING" />
@@ -73,8 +72,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/controller" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -86,9 +85,11 @@
       <recent name="com.example.firstspringbootproject.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AEO\Desktop\Java-Development\first-java-spring-boot-project\doc" />
       <recent name="C:\Users\AEO\Desktop\Java-Development\first-java-spring-boot-project\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AEO\Desktop\Java-Development\first-java-spring-boot-project\doc" />
       <recent name="C:\Users\AEO\Desktop\Java-Development\first-java-spring-boot-project" />
     </key>
   </component>
@@ -152,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647013963476</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Trainer Crud operations implemented">
+      <created>1647018636230</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647018636230</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,7 +179,8 @@
     <MESSAGE value="Initial classes declared" />
     <MESSAGE value="Customer Crud operations implemented" />
     <MESSAGE value="Lesson Crud operations implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson Crud operations implemented" />
+    <MESSAGE value="Trainer Crud operations implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trainer Crud operations implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
