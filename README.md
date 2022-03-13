@@ -34,7 +34,6 @@ You must change url like below picture
 
 ![h2_mem_login_menu](https://github.com/aozcann/first-java-spring-boot-project/blob/master/doc/h2_mem_login_menu.png)
 
-
 ## Test with Postman
 
 It can be tested with Postman. Postman Collectıon has been shared as a url:
