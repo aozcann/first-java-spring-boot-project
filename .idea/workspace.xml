@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40263b42-86c2-4672-954b-109015c16c0b" name="Changes" comment="Readme file edit.">
-      <change beforePath="$PROJECT_DIR$/doc/h2_mem_login_menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/doc/h2_mem_login_menu.png" afterDir="false" />
+    <list default="true" id="40263b42-86c2-4672-954b-109015c16c0b" name="Changes" comment="upload h2 login menu">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/FirstSpringBootProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/firstspringbootproject/FirstSpringBootProjectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/firstspringbootproject/FirstSpringBootProjectApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/firstspringbootproject/FirstSpringBootProjectApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,9 +90,22 @@
       <recent name="C:\Users\AEO\Desktop\Java-Development\first-java-spring-boot-project\doc" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FirstSpringBootProjectApplication">
     <configuration name="FirstSpringBootProjectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.firstspringbootproject.FirstSpringBootProjectApplication" />
+      <module name="first-spring-boot-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.firstspringbootproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.firstspringbootproject.Main" />
       <module name="first-spring-boot-project" />
       <extension name="coverage">
         <pattern>
@@ -103,6 +120,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FirstSpringBootProjectApplication" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647191072038</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="upload h2 login menu">
+      <created>1647191371258</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647191371258</updated>
+    </task>
+    <task id="LOCAL-00010" summary="upload h2 login menu">
+      <created>1647191795257</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647191795257</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,7 +227,8 @@
     <MESSAGE value="Lesson Crud operations implemented" />
     <MESSAGE value="Trainer Crud operations implemented" />
     <MESSAGE value="Readme file edit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme file edit." />
+    <MESSAGE value="upload h2 login menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload h2 login menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -245,10 +278,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="this" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

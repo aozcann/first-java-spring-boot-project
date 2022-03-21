@@ -5,8 +5,13 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
+@EnableSwagger2
+
+
+
 //@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 //@ComponentScan("com.example.firstspringbootproject.repository")
 public class FirstSpringBootProjectApplication {
